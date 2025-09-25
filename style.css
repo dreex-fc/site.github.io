@@ -1,0 +1,90 @@
+*{    margin: 0;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    box-sizing: border-box}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#nav_{background-color: rgba(255, 131, 16, 0.815);
+width: 100%;
+height: 80px;
+padding: 0 2rem;}
+
+#log {font-size: 50px;padding: 10px;text-align: center;padding-top: 13px;}
+.itens{
+    position: absolute;
+    right: 0;
+    height: 80px;
+line-height: 80px;
+margin: 0;
+display:inline-block;padding-right: 30px;}
+
+.itens li{
+display: inline-block;
+padding-left:30px;
+text-transform: uppercase;
+}
+
+.nome{margin-top: -40px;margin-left: 70px;text-transform: uppercase;font-style: italic;}
+
+.itens a{
+    text-decoration: none;
+    color: rgb(66, 31, 12);
+    font-size: 17px;
+    transition: 0,5s;
+    
+}
+
+
+#btn{background-color: rgb(255, 254, 253);
+border: 1px transparent;
+border-radius:10px ;
+padding: 10px;padding-bottom:12px ;}
+
+.banner{background: rgb(22, 22, 22);
+background-size:cover;
+background-position: center;
+padding: 10rem 0;
+}
+
+.banner h2,.banner p {color: white;text-transform: uppercase;text-align: center;font-weight:bolder;text-shadow: bisque 1px 0,5px;font-size: 30px;padding: 5px;;}
+
+.banner h2{font-size:  60px;}
+.banner p {font-size: 30px;}
+
+.service-containe {padding:5rem 0 ;}
+.service-containe ul {display: flex;
+width:90%;
+margin: 0 auto
+}
+.service-containe li {flex: 1 1 200px;
+list-style: none;
+text-align:center;
+padding: 20px;}
+
+.fa-solid,.fa-regular {font-size:50px ;
+margin-bottom: 10px;}
+
+.fa-shield-halved {color: rgb(102, 104, 105);}
+.fa-comments{color: rgb(54, 94, 129);}
+.fa-handshake{color: rgb(20, 99, 20);}
+/* Planos e preços */
+.planos{padding-bottom: 5rem;text-align: center;
+background-color: rgb(238, 238, 238);}
+.planos h2 {font-size: 40px;text-transform: uppercase;text-decoration:dotted;}
+.container{display: flex;
+justify-content:space-between;
+width: 80%;
+margin:50px auto 0;}
+
+.plans{flex:1;
+max-width: 275px;
+margin: 0 20px;}
+
+.plans ul {padding: 0;border: solid 1px rgb(168, 162, 168);border-radius: 10px;padding:0 20px;background-color: rgb(255, 255, 255) ;width: 100px 50px;background-color: rgb(255, 248, 240);}
+.plans li{list-style: none;padding: 15px;color: rgb(0, 0, 0);font-size: 17px;}
+.plan-name{ width: 100%;padding-bottom: 100px;text-align: left;font-weight: bold;font-size: 25px;background-color: rgb(221, 146, 48);width: 117% ;margin-left: -20px;border:1px solid transparent;border-radius: 10px 10px 0 0;text-transform: uppercase;}
+span{text-transform: capitalize;font-size: 20px;color: black;font-style:initial;}
+.plans .btn-plan{font-size: 23px;}
